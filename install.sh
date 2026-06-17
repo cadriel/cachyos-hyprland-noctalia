@@ -13,7 +13,7 @@ echo "alacritty.desktop" >> ~/.config/xdg-terminals.list
 sudo pacman -Syu
 
 # Installing software
-sudo pacman -S hyprland xdg-desktop-portal-hyprland noctalia-shell thunar greetd nwg-hello grimblast-git nwg-look qt6ct kvantum adw-gtk-theme playerctl ristretto ttf-jetbrains-mono breeze-icons oxygen-cursors
+sudo pacman -S hyprland xdg-desktop-portal-hyprland noctalia-shell hyprpolkitagent thunar greetd nwg-hello grimblast-git nwg-look qt6ct kvantum adw-gtk-theme playerctl ristretto ttf-jetbrains-mono breeze-icons oxygen-cursors
 
 # Installing some optional dependencies
 sudo pacman -S --asdeps catfish gvfs tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller 7zip cliphist wlsunset
