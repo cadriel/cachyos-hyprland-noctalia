@@ -2,4 +2,5 @@
 opacity = 0.8
 
 [font]
-offset.y = -1
+normal = {family = "JetBrains Mono", style = "Regular"}
+offset = {y = -1}
