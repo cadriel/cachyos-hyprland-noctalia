@@ -2,24 +2,17 @@
 image/jpeg=org.xfce.ristretto.desktop
 image/png=org.xfce.ristretto.desktop
 application/x-zerosize=micro.desktop
-video/mp4=mpv.desktop
 image/webp=org.xfce.ristretto.desktop
 application/x-executable=micro.desktop
 application/octet-stream=micro.desktop
 application/json=micro.desktop
-video/webm=mpv.desktop
-audio/x-opus+ogg=mpv.desktop
 
 [Added Associations]
 text/plain=micro.desktop
 application/schema+json=micro.desktop;
 image/jpeg=gimp.desktop;org.xfce.ristretto.desktop;
 image/png=org.xfce.ristretto.desktop;
-video/x-matroska=mpv.desktop;
-video/mp4=mpv.desktop;
 image/webp=org.xfce.ristretto.desktop;
 application/json=micro.desktop;
 text/css=micro.desktop;
 application/x-shellscript=micro.desktop;
-video/webm=mpv.desktop;
-audio/x-opus+ogg=mpv.desktop;
