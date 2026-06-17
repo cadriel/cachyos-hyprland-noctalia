@@ -20,4 +20,4 @@ gsettings set org.gnome.desktop.interface cursor-theme "Oxygen_Zion"
 # Configuring and enabling greetd with nwg-hello
 sudo cp -i -r -v ./etc/greetd/ /etc/
 sudo cp -i -r -v ./etc/nwg-hello/ /etc/
-systemctl enable --now greetd
+systemctl enable greetd
