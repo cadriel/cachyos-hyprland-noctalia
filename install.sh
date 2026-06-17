@@ -1,0 +1,23 @@
+#!/usr/bin/bash
+
+# Copying configuration files into ~
+cp -i -r -v ./home/ ~/
+
+# Installing software
+sudo pacman -Syu hyprland xdg-desktop-portal-hyprland thunar nwg-hello grimblast-git nwg-look qt6ct kvantum adw-gtk3-theme playerctl ristretto ttf-jetbrains-mono breeze-icons oxygen-cursors
+
+# Installing some optional dependencies
+sudo pacman -S --asdeps catfish gvfs tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller 7zip cliphist wlsunset
+
+# Installing from AUR
+paru -S xdg-terminal-exec
+
+# Annoying GTK theming junk
+gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark"
+gsettings set org.gnome.desktop.interface icon-theme "breeze-dark"
+gsettings set org.gnome.desktop.interface cursor-theme "Oxygen_Zion"
+
+# Configuring and enabling greetd with nwg-hello
+sudo cp -i -r -v ./etc/greetd/ /etc/
+sudo cp -i -r -v ./etc/nwg-hello/ /etc/
+systemctl enable --now greetd
