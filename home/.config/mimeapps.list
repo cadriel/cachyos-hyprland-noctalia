@@ -10,7 +10,7 @@ application/json=micro.desktop
 [Added Associations]
 text/plain=micro.desktop
 application/schema+json=micro.desktop;
-image/jpeg=gimp.desktop;org.xfce.ristretto.desktop;
+image/jpeg=org.xfce.ristretto.desktop;
 image/png=org.xfce.ristretto.desktop;
 image/webp=org.xfce.ristretto.desktop;
 application/json=micro.desktop;
