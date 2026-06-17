@@ -21,11 +21,10 @@ gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark"
 gsettings set org.gnome.desktop.interface icon-theme "breeze-dark"
 gsettings set org.gnome.desktop.interface cursor-theme "Oxygen_Zion"
 
+# Just in case the user directories weren't created
+xdg-user-dirs-update
+
 # Configuring and enabling greetd with nwg-hello
 sudo cp -i -r -v ./etc/greetd/ /etc/
 sudo cp -i -r -v ./etc/nwg-hello/ /etc/
 systemctl enable greetd
-
-# Making the CachyOS wallpapers available to Noctalia during setup
-xdg-user-dirs-update
-ln -s /usr/share/wallpapers/cachyos-wallpapers ~/Pictures/Wallpapers
