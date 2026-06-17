@@ -4,7 +4,7 @@
 cp -i -r -v ./home/ ~/
 
 # Installing software
-sudo pacman -Syu hyprland xdg-desktop-portal-hyprland thunar greetd nwg-hello grimblast-git nwg-look qt6ct kvantum adw-gtk3-theme playerctl ristretto ttf-jetbrains-mono breeze-icons oxygen-cursors
+sudo pacman -Syu hyprland xdg-desktop-portal-hyprland thunar greetd nwg-hello grimblast-git nwg-look qt6ct kvantum adw-gtk-theme playerctl ristretto ttf-jetbrains-mono breeze-icons oxygen-cursors
 
 # Installing some optional dependencies
 sudo pacman -S --asdeps catfish gvfs tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller 7zip cliphist wlsunset
