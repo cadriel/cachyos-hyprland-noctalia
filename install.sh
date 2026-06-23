@@ -29,6 +29,9 @@ gsettings set org.gnome.desktop.interface cursor-theme "Oxygen_Zion"
 # Just in case the user directories weren't created
 xdg-user-dirs-update
 
+# Symlinking cachyos-wallpapers(if it exists) with Noctalia's default wallpaper directory
+ln -s /usr/share/wallpapers/cachyos-wallpapers ~/Pictures/Wallpapers
+
 # Configuring and enabling greetd with nwg-hello
 sudo cp -i -r -v ./etc/greetd/ /etc/
 sudo cp -i -r -v ./etc/nwg-hello/ /etc/
