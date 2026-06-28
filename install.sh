@@ -7,7 +7,6 @@ cp -i -r -v ./home/.local/ ~/
 # Allow launching of terminal applications from Thunar
 mkdir ~/.config/xfce4
 echo "TerminalEmulator=alacritty" >> ~/.config/xfce4/helpers.rc
-echo "alacritty.desktop" >> ~/.config/xdg-terminals.list
 
 # Ensuring system is up to date before beginning
 sudo pacman -Syu
