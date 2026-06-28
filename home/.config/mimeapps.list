@@ -1,18 +1,18 @@
 [Default Applications]
 image/jpeg=org.xfce.ristretto.desktop
 image/png=org.xfce.ristretto.desktop
-application/x-zerosize=micro.desktop
+application/x-zerosize=gedit.desktop
 image/webp=org.xfce.ristretto.desktop
-application/x-executable=micro.desktop
-application/octet-stream=micro.desktop
-application/json=micro.desktop
+application/x-executable=gedit.desktop
+application/octet-stream=gedit.desktop
+application/json=gedit.desktop
 
 [Added Associations]
-text/plain=micro.desktop
-application/schema+json=micro.desktop;
+text/plain=gedit.desktop
+application/schema+json=gedit.desktop;
 image/jpeg=org.xfce.ristretto.desktop;
 image/png=org.xfce.ristretto.desktop;
 image/webp=org.xfce.ristretto.desktop;
-application/json=micro.desktop;
-text/css=micro.desktop;
-application/x-shellscript=micro.desktop;
+application/json=gedit.desktop;
+text/css=gedit.desktop;
+application/x-shellscript=gedit.desktop;
