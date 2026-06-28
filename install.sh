@@ -8,13 +8,13 @@ cp -i -r -v ./home/.local/ ~/
 mkdir ~/.config/xfce4
 echo "TerminalEmulator=alacritty" >> ~/.config/xfce4/helpers.rc
 
-# Ensuring system is up to date before beginning
-sudo pacman -Syu
+# Install Core Software
+sudo pacman -Syu hyprland xdg-desktop-portal-hyprland noctalia-shell hyprpolkitagent nwg-look qt6ct kvantum playerctl
 
-# Installing software
-sudo pacman -S hyprland xdg-desktop-portal-hyprland noctalia-shell hyprpolkitagent thunar greetd nwg-hello grimblast-git nwg-look qt6ct kvantum adw-gtk-theme playerctl ristretto gedit ttf-jetbrains-mono breeze-icons oxygen-cursors
+# Install Elective Software
+sudo pacman -S thunar greetd nwg-hello grimblast-git adw-gtk-theme ristretto gedit ttf-jetbrains-mono breeze-icons oxygen-cursors
 
-# Installing some optional dependencies
+# Install Optional Dependencies
 sudo pacman -S --asdeps catfish gvfs tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller 7zip cliphist wlsunset
 
 # Annoying GTK theming junk
