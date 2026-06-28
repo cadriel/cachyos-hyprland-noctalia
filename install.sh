@@ -3,6 +3,7 @@
 # Copying configuration files into ~
 cp -i -r -v ./home/.config/ ~/
 cp -i -r -v ./home/.local/ ~/
+cp -i -r -v ./home/.gtkrc-2.0 ~/
 
 # Allow launching of terminal applications from Thunar
 mkdir ~/.config/xfce4
