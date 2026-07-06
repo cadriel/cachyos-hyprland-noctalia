@@ -1,18 +1,18 @@
 [Default Applications]
 image/jpeg=org.xfce.ristretto.desktop
 image/png=org.xfce.ristretto.desktop
-application/x-zerosize=org.gnome.gedit.desktop
+application/x-zerosize=org.xfce.mousepad.desktop
 image/webp=org.xfce.ristretto.desktop
-application/x-executable=org.gnome.gedit.desktop
-application/octet-stream=org.gnome.gedit.desktop
-application/json=org.gnome.gedit.desktop
+application/x-executable=org.xfce.mousepad.desktop
+application/octet-stream=org.xfce.mousepad.desktop
+application/json=org.xfce.mousepad.desktop
 
 [Added Associations]
-text/plain=org.gnome.gedit.desktop
-application/schema+json=org.gnome.gedit.desktop;
+text/plain=org.xfce.mousepad.desktop
+application/schema+json=org.xfce.mousepad.desktop;
 image/jpeg=org.xfce.ristretto.desktop;
 image/png=org.xfce.ristretto.desktop;
 image/webp=org.xfce.ristretto.desktop;
-application/json=org.gnome.gedit.desktop;
-text/css=org.gnome.gedit.desktop;
-application/x-shellscript=org.gnome.gedit.desktop;
+application/json=org.xfce.mousepad.desktop;
+text/css=org.xfce.mousepad.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;
