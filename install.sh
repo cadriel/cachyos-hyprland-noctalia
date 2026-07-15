@@ -7,11 +7,10 @@ cp -i -r -v ./home/.config/ ./home/.local/ ./home/.gtkrc-2.0 ~/
 mkdir ~/.config/xfce4
 echo "TerminalEmulator=alacritty" >> ~/.config/xfce4/helpers.rc
 
-# Install Core Software
-sudo pacman -Syu hyprland xdg-desktop-portal-hyprland noctalia-shell hyprpolkitagent nwg-look qt6ct kvantum playerctl
-
-# Install Elective Software
-sudo pacman -S thunar greetd nwg-hello grimblast-git adw-gtk-theme ristretto mousepad ttf-jetbrains-mono breeze-icons oxygen-cursors
+# Install Core, Elective, and Theming Software
+sudo pacman -Syu hyprland xdg-desktop-portal-hyprland noctalia-shell hyprpolkitagent playerctl nwg-look qt6ct kvantum \
+  thunar greetd nwg-hello grimblast-git ristretto mousepad \
+  adw-gtk-theme ttf-jetbrains-mono breeze-icons oxygen-cursors
 
 # Install Optional Dependencies
 sudo pacman -S --asdeps catfish gvfs tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller 7zip cliphist wlsunset
