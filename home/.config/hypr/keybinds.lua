@@ -4,28 +4,22 @@
 
 local terminal = "alacritty"
 local fileManager = "thunar"
-local launcher = "qs -c noctalia-shell ipc call launcher toggle"
-local sessionmenu = "qs -c noctalia-shell ipc call sessionMenu toggle"
+local menu = "qs -c noctalia-shell ipc call launcher toggle"
 local lockscreen = "qs -c noctalia-shell ipc call lockScreen lock"
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
+hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
-hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
-hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(fileManager))
+hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + M", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
-hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
-hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(launcher))
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(lockscreen))
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(sessionmenu))
-hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call controlCenter toggle" ))
-hl.bind(mainMod .. " + S", hl.dsp.exec_cmd("qs -c noctalia-shell ipc call settings toggle"))
-hl.bind(mainMod .. " + K", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
+hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd(lockscreen))
 
 -- Screenshot Taking
 hl.bind("Print", hl.dsp.exec_cmd("grimblast copy area"))
