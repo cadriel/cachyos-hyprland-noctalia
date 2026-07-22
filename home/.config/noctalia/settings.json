@@ -685,19 +685,19 @@
           {
             "enabled": true,
             "id": "alacritty"
-          }
+          },
           {
             "enabled": true,
             "id": "btop"
-          }
+          },
           {
             "enabled": true,
             "id": "gtk"
-          }
+          },
           {
             "enabled": true,
             "id": "hyprtoolkit"
-          }
+          },
           {
             "enabled": true,
             "id": "qt"
