@@ -299,7 +299,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "content",
+        "generationMethod": "rainbow",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
@@ -682,6 +682,26 @@
     },
     "templates": {
         "activeTemplates": [
+          {
+            "enabled": true,
+            "id": "alacritty"
+          }
+          {
+            "enabled": true,
+            "id": "btop"
+          }
+          {
+            "enabled": true,
+            "id": "gtk"
+          }
+          {
+            "enabled": true,
+            "id": "hyprtoolkit"
+          }
+          {
+            "enabled": true,
+            "id": "qt"
+          }
         ],
         "enableUserTheming": false
     },
@@ -701,7 +721,7 @@
     },
     "wallpaper": {
         "automationEnabled": false,
-        "directory": "~/Pictures/Wallpapers",
+        "directory": "/home/$USER/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "favorites": [
