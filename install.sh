@@ -7,7 +7,10 @@ cp -i -r -v ./home/.config/ ./home/.local/ ./home/.gtkrc-2.0 ~/
 mkdir ~/.config/xfce4
 echo "TerminalEmulator=alacritty" >> ~/.config/xfce4/helpers.rc
 
-# Install Core, Elective, and Theming Software
+# Software Installation in Tiers
+# Line 1: Core Packages
+# Line 2: Elective Packages
+# Line 3: Theming Packages
 sudo pacman -Syu hyprland xdg-desktop-portal-hyprland noctalia-shell hyprpolkitagent playerctl nwg-look qt6ct kvantum \
   thunar greetd nwg-hello grimblast-git ristretto mousepad \
   adw-gtk-theme ttf-jetbrains-mono breeze-icons oxygen-cursors
