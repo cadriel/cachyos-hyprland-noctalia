@@ -11,8 +11,9 @@ echo "TerminalEmulator=alacritty" >> ~/.config/xfce4/helpers.rc
 # Line 1: Core Packages
 # Line 2: Elective Packages
 # Line 3: Theming Packages
-sudo pacman -Syu hyprland xdg-desktop-portal-hyprland noctalia-shell hyprpolkitagent playerctl nwg-look qt6ct kvantum \
-  thunar greetd nwg-hello grimblast-git ristretto mousepad \
+sudo pacman -Syu hyprland noctalia noctalia-greeter uwsm xdg-desktop-portal-hyprland hyprpolkitagent \
+  playerctl nwg-look qt6ct kvantum \
+  thunar greetd grimblast-git ristretto mousepad \
   adw-gtk-theme ttf-jetbrains-mono breeze-icons oxygen-cursors
 
 # Install Optional Dependencies
@@ -31,5 +32,5 @@ xdg-user-dirs-update
 ln -s /usr/share/wallpapers/cachyos-wallpapers ~/Pictures/Wallpapers
 
 # Configuring and enabling greetd with nwg-hello
-sudo cp -i -r -v ./etc/greetd/ ./etc/nwg-hello/ /etc/
+sudo cp -i -r -v ./etc/greetd/ /etc/
 systemctl enable greetd
