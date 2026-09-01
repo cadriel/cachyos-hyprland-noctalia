@@ -36,9 +36,9 @@ And then you're done
 ### Software Used
 * **Wayland Compositor:** [`hyprland`](https://hypr.land/)(duh)
 * **Display Manager:** [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) and [`noctalia-greeter`](https://docs.noctalia.dev/greeter/)
-* **Authentication Agent:** [`hyprpolkitagent`](https://github.com/hyprwm/hyprpolkitagent)
 * **File Manager:** [`thunar`](https://docs.xfce.org/xfce/thunar/start)
 * **Screenshot Utility:** [`grimblast-git`](https://github.com/hyprwm/contrib/tree/main/grimblast)
+* **Authentication Agent:** Handled by noctalia
 * **Notification Daemon:** Handled by noctalia
 * **Application Launcher:** Handled by noctalia
 * **Status Bar:** Handled by noctalia
