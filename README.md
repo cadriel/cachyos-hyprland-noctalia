@@ -35,17 +35,17 @@ And then you're done
 
 ### Software Used
 * **Wayland Compositor:** [`hyprland`](https://hypr.land/)(duh)
-* **Display Manager:** [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) and [`nwg-hello`](https://github.com/nwg-piotr/nwg-hello)
+* **Display Manager:** [`greetd`](https://git.sr.ht/~kennylevinsen/greetd) and [`noctalia-greeter`](https://docs.noctalia.dev/greeter/)
 * **Authentication Agent:** [`hyprpolkitagent`](https://github.com/hyprwm/hyprpolkitagent)
-* **Notification Daemon:** [`mako`](https://github.com/emersion/mako)
 * **File Manager:** [`thunar`](https://docs.xfce.org/xfce/thunar/start)
-* **Application Launcher:** [`fuzzel`](https://codeberg.org/dnkl/fuzzel)
-* **Status Bar:** [`waybar`](https://github.com/Alexays/Waybar)
-* **Clipboard Daemon:** [`wl-clipboard`](https://github.com/bugaevc/wl-clipboard) and [`cliphist`](https://github.com/sentriz/cliphist)
 * **Screenshot Utility:** [`grimblast-git`](https://github.com/hyprwm/contrib/tree/main/grimblast)
-* **Session Menu:** [`wlogout`](https://github.com/ArtsyMacaw/wlogout)
-* **Lockscreen:** [`hyprlock`](https://github.com/hyprwm/hyprlock)
-* **Idle Handler:** [`hypridle`](https://github.com/hyprwm/hypridle)
+* **Notification Daemon:** Handled by noctalia
+* **Application Launcher:** Handled by noctalia
+* **Status Bar:** Handled by noctalia
+* **Clipboard Daemon:** Handled by noctalia
+* **Session Menu:** Handled by noctalia
+* **Lockscreen:** Handled by noctalia
+* **Idle Handler:** Handled by noctalia
 * **Theme Management:** [`nwg-look`](https://github.com/nwg-piotr/nwg-look)(GTK), [`qt6ct`](https://www.opencode.net/trialuser/qt6ct)(QT), and [`kvantum`](https://github.com/tsujan/Kvantum)(QT)
 * **Themes:** [`materia-gtk-theme`, `kvantum-theme-materia`](https://github.com/nana-4/materia-theme), and [`breeze-icons`](https://packages.cachyos.org/package/extra/x86_64/breeze-icons)
 
