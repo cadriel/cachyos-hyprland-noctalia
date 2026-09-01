@@ -31,6 +31,6 @@ xdg-user-dirs-update
 # Symlinking cachyos-wallpapers(if it exists) with Noctalia's default wallpaper directory
 ln -s /usr/share/wallpapers/cachyos-wallpapers ~/Pictures/Wallpapers
 
-# Configuring and enabling greetd with nwg-hello
-sudo cp -i -r -v ./etc/greetd/ /etc/
+# Configuring and enabling greetd with noctalia-greeter-session
+sudo sed -i '/^\[default_session\]/,/^\[/ s|^command = .*|command = "/usr/bin/noctalia-greeter-session"|' /etc/greetd/greetd.toml
 systemctl enable greetd
